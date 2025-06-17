@@ -1,0 +1,47 @@
+.container {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+}
+
+.user-info p {
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 8px;
+  background-color: #e9f1f7;
+  border-radius: 4px;
+  border-left: 4px solid #2980b9;
+}
+
+.user-info strong {
+  color: #2980b9;
+}
+
+
+.logout-btn {
+  display: block;
+  margin: 24px auto 0;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
